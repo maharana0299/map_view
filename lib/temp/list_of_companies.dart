@@ -1,19 +1,23 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
+
+/*
+This is made to temporarily generate companies
+ */
 class CompaniesList {
 
   List<Widget> getCompanyList() {
     List<Widget> _companyList = [];
     for (int i = 0; i < 10; i++) {
-      _companyList.add(CompanyDetialsView());
+      _companyList.add(CompanyDetailsView());
     }
     return _companyList;
   }
 
 }
 
-class CompanyDetialsView extends StatelessWidget {
+class CompanyDetailsView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
